@@ -2,13 +2,13 @@
 # V = I * R
 
 # Get current (in Amperes) from user
-current = float(input("Enter the current (in A): "))
+current = float(input("Enter the current (in A): 3"))
 
 # Get resistance (in Ohms) from user
-resistance = float(input("Enter the resistance (in ohms): "))
+resistance = float(input("Enter the resistance (in ohms): 7"))
 
 # Calculate voltage
 voltage = current * resistance
 
 # Display result
-print(f"The voltage is: {voltage} volts")
+print(f"The voltage is:21.0 {voltage} volts")
